@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung für Metevia</title>
+  <meta name="description" content="Datenschutzerklärung für die Wetter-App Metevia.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f4ee;
+      --text: #1f2933;
+      --muted: #5b6773;
+      --line: #d7d0c4;
+      --accent: #0f766e;
+      --panel: #fffaf2;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --text: #f3f4f6;
+        --muted: #c3c8d0;
+        --line: #374151;
+        --accent: #5eead4;
+        --panel: #1f2937;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      margin: 0 0 12px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin: 40px 0 12px;
+      padding-top: 8px;
+      border-top: 1px solid var(--line);
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin: 24px 0 8px;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 0.18em;
+    }
+
+    ul {
+      padding-left: 1.35rem;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .notice {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin: 24px 0 0;
+      padding: 16px 18px;
+    }
+
+    .summary {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin: 28px 0 8px;
+    }
+
+    .summary div {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .summary strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      margin-top: 48px;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Datenschutzerklärung für Metevia</h1>
+      <p class="meta">Stand: 2. Juli 2026</p>
+      <p class="notice">
+        Diese Datenschutzerklärung beschreibt, wie die iOS-App Metevia, die Apple-Watch-App und die Widgets personenbezogene Daten verarbeiten. Metevia ist eine Wetter-App für standortbezogene Wetterdaten, Regenradar, Wetterwarnungen und optionale Push-Mitteilungen.
+      </p>
+    </header>
+
+    <section class="summary" aria-label="Kurzzusammenfassung">
+      <div>
+        <strong>Kein Tracking</strong>
+        Metevia nutzt nach aktuellem Stand keine Werbeprofile, kein App-Tracking und keine Firebase Analytics.
+      </div>
+      <div>
+        <strong>Standort nur für Wetterfunktionen</strong>
+        Standortdaten werden verwendet, um Wetter, Radar und Warnungen für die ausgewählte Region zu laden.
+      </div>
+      <div>
+        <strong>Firebase für Cloud-Mitteilungen</strong>
+        Firebase Cloud Messaging und Cloud Firestore werden nur für optionale serverseitige Wetter- und Warnmitteilungen verwendet.
+      </div>
+    </section>
+
+    <h2>1. Verantwortlicher</h2>
+    <p>
+      Verantwortlich für die Datenverarbeitung in Metevia ist:
+    </p>
+    <p>
+      Christine Leupold<br>
+      E-Mail: <a href="mailto:zwoelfte_51_rafting@icloud.com">zwoelfte_51_rafting@icloud.com</a>
+    </p>
+
+    <h2>2. Welche Daten Metevia verarbeitet</h2>
+    <h3>Standortdaten</h3>
+    <p>
+      Metevia kann den aktuellen Standort des Geräts verwenden, wenn du die iOS-Standortberechtigung erteilst. Die App rundet Standortkoordinaten für Wetterabfragen und Benachrichtigungseinstellungen. Du kannst Metevia auch ohne aktuelle Standortfreigabe nutzen, indem du einen Ort manuell auswählst oder gespeicherte Orte verwendest.
+    </p>
+    <p>
+      Verarbeitet werden insbesondere Ortsname, Breiten- und Längengrad, Wetterregionen und Warnregionen. Diese Daten werden genutzt, um Wetterdaten, Regenradar, Wetterwarnungen, Widgets und Apple-Watch-Ansichten für die gewählte Region bereitzustellen.
+    </p>
+
+    <h3>Lokal gespeicherte Einstellungen</h3>
+    <p>
+      Metevia speichert App-Einstellungen lokal auf deinem Gerät, zum Beispiel gespeicherte Orte, Widget- und Watch-Einstellungen, Benachrichtigungseinstellungen, zuletzt geladene Wetterdaten, Onboarding-Status und technische Einstellungen. Diese Daten bleiben grundsätzlich auf deinem Gerät beziehungsweise in der App-Gruppe der App, Widgets und Watch-App.
+    </p>
+
+    <h3>Push- und Benachrichtigungsdaten</h3>
+    <p>
+      Wenn du Mitteilungen aktivierst, verarbeitet Metevia die Mitteilungsberechtigung und technische Push-Daten. Für lokale Regen- und Warnhinweise werden Wetterdaten und Einstellungen auf dem Gerät ausgewertet. Für optionale Cloud-Mitteilungen werden zusätzlich Daten an Firebase übermittelt.
+    </p>
+
+    <h2>3. Firebase und Cloud-Mitteilungen</h2>
+    <p>
+      Metevia verwendet Firebase von Google für optionale serverseitige Push-Mitteilungen. Nach der offiziellen Firebase-Dokumentation handeln App-Anbieter bei Firebase-Endnutzerdaten typischerweise als Verantwortliche, während Google diese Daten in der Regel als Auftragsverarbeiter verarbeitet. Weitere Informationen findest du in den Firebase-Hinweisen zu Datenschutz und Sicherheit unter <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.
+    </p>
+    <p>
+      Für Cloud-Mitteilungen können in Cloud Firestore folgende Daten gespeichert werden:
+    </p>
+    <ul>
+      <li>Firebase Cloud Messaging Token beziehungsweise technische Installationskennung</li>
+      <li>eine zufällig erzeugte Installations-ID der App</li>
+      <li>ausgewählte Wetter- oder Warnregion</li>
+      <li>Ortsname, gerundete Koordinaten und Regionstyp, soweit für Regen-Mitteilungen erforderlich</li>
+      <li>Benachrichtigungseinstellungen wie Regenmodus, Schwellenwerte und Vorlaufzeit</li>
+      <li>App-Version, Plattform und Aktualisierungszeitpunkt</li>
+      <li>optionale Testanfragen für Cloud-Mitteilungen</li>
+    </ul>
+    <p>
+      Firebase Cloud Messaging verwendet Firebase-Installations-IDs, um Nachrichten an das richtige Gerät zuzustellen. Firebase speichert solche IDs nach Google-Angaben bis zur Löschung durch den Firebase-Kunden; anschließend werden sie aus Live- und Backup-Systemen entfernt. Details stehen in der Firebase-Dokumentation.
+    </p>
+    <p>
+      Metevia nutzt Firebase nach aktuellem Stand nicht für Werbe-Tracking und nicht für Firebase Analytics. Die Firebase-Konfiguration der App weist Analytics als deaktiviert aus.
+    </p>
+
+    <h2>4. Externe Wetterdatenquellen</h2>
+    <p>
+      Metevia lädt Wetter-, Warn- und Radardaten von externen Wetterdiensten, insbesondere vom Deutschen Wetterdienst (DWD) und von <a href="https://brightsky.dev">Bright Sky</a>. Bei solchen Netzwerkaufrufen können technisch notwendige Daten wie IP-Adresse, Zeitpunkt des Abrufs, angefragte URL und abgeleitete Standortparameter an den jeweiligen Dienst übermittelt werden. Diese Verarbeitung dient ausschließlich dazu, Wetterdaten für die ausgewählte Region abzurufen.
+    </p>
+
+    <h2>5. Apple-Dienste, Watch und Widgets</h2>
+    <p>
+      Für Push-Mitteilungen verwendet iOS die Apple Push Notification Services (APNs). Die Apple-Watch-App und die Widgets können Orte, Wetterdaten und Einstellungen aus der App beziehungsweise der gemeinsamen App-Gruppe nutzen, damit Wetterinformationen auf Watch und Home Screen angezeigt werden. Die Watch-App kann ebenfalls nach Standortzugriff fragen, wenn du den aktuellen Standort direkt auf der Apple Watch verwenden möchtest.
+    </p>
+
+    <h2>6. Zwecke und Rechtsgrundlagen</h2>
+    <p>
+      Die Verarbeitung erfolgt, um die App-Funktionen bereitzustellen: Wetteranzeige, Regenradar, Warnungen, Standortauswahl, Widgets, Watch-Unterstützung und optionale Benachrichtigungen. Die Verarbeitung erfolgt je nach Funktion auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO (Einwilligung), Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der App-Funktionen) sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Sicherheit und technischem Betrieb).
+    </p>
+
+    <h2>7. Speicherdauer und Löschung</h2>
+    <p>
+      Lokal gespeicherte Daten bleiben auf deinem Gerät, bis du sie in der App änderst, die App-Daten löschst oder die App deinstallierst. Cloud-Mitteilungsdaten werden gelöscht, wenn du die entsprechenden Mitteilungen deaktivierst oder alle Benachrichtigungsdaten in der App löschst. Technische Daten bei Firebase, Apple oder externen Wetterdiensten unterliegen den jeweiligen Speicherfristen dieser Anbieter.
+    </p>
+
+    <h2>8. Empfänger und Drittanbieter</h2>
+    <ul>
+      <li>Google Firebase, insbesondere Firebase Cloud Messaging und Cloud Firestore, für optionale Cloud-Mitteilungen.</li>
+      <li>Apple, insbesondere iOS-Berechtigungen, APNs, WatchConnectivity, Widgets und systemnahe App-Funktionen.</li>
+      <li>Deutscher Wetterdienst und <a href="https://brightsky.dev">Bright Sky</a> für Wetter-, Warn- und Radardaten.</li>
+      <li>GitHub Pages für die Bereitstellung dieser Datenschutzerklärung.</li>
+    </ul>
+
+    <h2>9. Drittlandübermittlungen</h2>
+    <p>
+      Bei der Nutzung von Firebase, Apple-Diensten, GitHub Pages und externen Wetterdatenquellen kann eine Verarbeitung außerhalb der Europäischen Union beziehungsweise des Europäischen Wirtschaftsraums stattfinden. Soweit erforderlich, stützen sich die Anbieter auf geeignete Garantien wie Angemessenheitsbeschlüsse, Standardvertragsklauseln oder vergleichbare Schutzmechanismen.
+    </p>
+
+    <h2>10. Deine Rechte</h2>
+    <p>
+      Du hast nach Maßgabe der DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch gegen bestimmte Verarbeitungen. Wenn eine Verarbeitung auf Einwilligung beruht, kannst du diese Einwilligung jederzeit für die Zukunft widerrufen, zum Beispiel in den iOS-Einstellungen für Standort und Mitteilungen oder in den App-Einstellungen.
+    </p>
+    <p>
+      Du kannst dich außerdem bei einer Datenschutzaufsichtsbehörde beschweren, wenn du der Ansicht bist, dass die Verarbeitung personenbezogener Daten gegen Datenschutzrecht verstößt.
+    </p>
+
+    <h2>11. Sicherheit</h2>
+    <p>
+      Metevia beschränkt die Datenverarbeitung auf die für die Wetterfunktionen erforderlichen Daten. Cloud-Mitteilungsdaten werden nur für aktivierte Benachrichtigungsfunktionen verwendet. Die App speichert keine Werbeprofile und verkauft keine personenbezogenen Daten.
+    </p>
+
+    <h2>12. Änderungen dieser Datenschutzerklärung</h2>
+    <p>
+      Diese Datenschutzerklärung kann angepasst werden, wenn sich Funktionen, eingesetzte Dienste oder rechtliche Anforderungen ändern. Die jeweils aktuelle Fassung ist auf dieser Seite abrufbar.
+    </p>
+
+    <footer>
+      <p>Metevia Datenschutzseite. Letzte Aktualisierung: 2. Juli 2026.</p>
+    </footer>
+  </main>
+</body>
+</html>
